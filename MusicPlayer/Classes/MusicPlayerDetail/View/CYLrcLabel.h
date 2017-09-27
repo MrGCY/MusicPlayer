@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CYLrcLabel.h
 //  MusicPlayer
 //
 //  Created by Mr.GCY on 2017/9/27.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface CYLrcLabel : UILabel
+/** 进度 */
+@property(nonatomic, assign) CGFloat progress;
 @end
-

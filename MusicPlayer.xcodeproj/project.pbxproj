@@ -83,8 +83,13 @@
 		413BB3FF1F7BA85C0060E92C /* CYImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB3FE1F7BA85C0060E92C /* CYImageUtils.m */; };
 		413BB4051F7BAEB30060E92C /* CYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB4031F7BAEB10060E92C /* CYAudioUtils.m */; };
 		413BB40B1F7BB8790060E92C /* CYMusicOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB40A1F7BB8790060E92C /* CYMusicOperationManager.m */; };
+		413BB4111F7BC8C40060E92C /* CYMusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB40F1F7BC8C40060E92C /* CYMusicDetailViewController.m */; };
+		413BB4121F7BC8C40060E92C /* CYMusicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BB4101F7BC8C40060E92C /* CYMusicDetailViewController.xib */; };
+		413BB4161F7BCB9A0060E92C /* CYLrcLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB4151F7BCB9A0060E92C /* CYLrcLabel.m */; };
+		413BB4191F7BD0A30060E92C /* CYLrcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB4181F7BD0A30060E92C /* CYLrcTableViewController.m */; };
+		413BB41D1F7BD48E0060E92C /* CYLrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB41B1F7BD48E0060E92C /* CYLrcCell.m */; };
+		413BB41E1F7BD48E0060E92C /* CYLrcCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BB41C1F7BD48E0060E92C /* CYLrcCell.xib */; };
 		41917B721F7B94BA00BAA1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41917B711F7B94BA00BAA1CC /* AppDelegate.m */; };
-		41917B751F7B94BA00BAA1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41917B741F7B94BA00BAA1CC /* ViewController.m */; };
 		41917B781F7B94BA00BAA1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41917B761F7B94BA00BAA1CC /* Main.storyboard */; };
 		41917B7D1F7B94BB00BAA1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41917B7B1F7B94BB00BAA1CC /* LaunchScreen.storyboard */; };
 		41917B801F7B94BB00BAA1CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41917B7F1F7B94BB00BAA1CC /* main.m */; };
@@ -157,11 +162,19 @@
 		413BB4041F7BAEB30060E92C /* CYAudioUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYAudioUtils.h; sourceTree = "<group>"; };
 		413BB4091F7BB8790060E92C /* CYMusicOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMusicOperationManager.h; sourceTree = "<group>"; };
 		413BB40A1F7BB8790060E92C /* CYMusicOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMusicOperationManager.m; sourceTree = "<group>"; };
+		413BB40E1F7BC8C40060E92C /* CYMusicDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYMusicDetailViewController.h; sourceTree = "<group>"; };
+		413BB40F1F7BC8C40060E92C /* CYMusicDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYMusicDetailViewController.m; sourceTree = "<group>"; };
+		413BB4101F7BC8C40060E92C /* CYMusicDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYMusicDetailViewController.xib; sourceTree = "<group>"; };
+		413BB4141F7BCB9A0060E92C /* CYLrcLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLrcLabel.h; sourceTree = "<group>"; };
+		413BB4151F7BCB9A0060E92C /* CYLrcLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLrcLabel.m; sourceTree = "<group>"; };
+		413BB4171F7BD0A30060E92C /* CYLrcTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLrcTableViewController.h; sourceTree = "<group>"; };
+		413BB4181F7BD0A30060E92C /* CYLrcTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLrcTableViewController.m; sourceTree = "<group>"; };
+		413BB41A1F7BD48E0060E92C /* CYLrcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLrcCell.h; sourceTree = "<group>"; };
+		413BB41B1F7BD48E0060E92C /* CYLrcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLrcCell.m; sourceTree = "<group>"; };
+		413BB41C1F7BD48E0060E92C /* CYLrcCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYLrcCell.xib; sourceTree = "<group>"; };
 		41917B6D1F7B94B900BAA1CC /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41917B701F7B94BA00BAA1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41917B711F7B94BA00BAA1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		41917B731F7B94BA00BAA1CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		41917B741F7B94BA00BAA1CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41917B771F7B94BA00BAA1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41917B7C1F7B94BB00BAA1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41917B7E1F7B94BB00BAA1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -345,6 +358,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		413BB40C1F7BC8860060E92C /* MusicPlayerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				413BB4131F7BCB7B0060E92C /* View */,
+				413BB40D1F7BC8A60060E92C /* Controller */,
+			);
+			path = MusicPlayerDetail;
+			sourceTree = "<group>";
+		};
+		413BB40D1F7BC8A60060E92C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				413BB40E1F7BC8C40060E92C /* CYMusicDetailViewController.h */,
+				413BB40F1F7BC8C40060E92C /* CYMusicDetailViewController.m */,
+				413BB4101F7BC8C40060E92C /* CYMusicDetailViewController.xib */,
+				413BB4171F7BD0A30060E92C /* CYLrcTableViewController.h */,
+				413BB4181F7BD0A30060E92C /* CYLrcTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		413BB4131F7BCB7B0060E92C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				413BB4141F7BCB9A0060E92C /* CYLrcLabel.h */,
+				413BB4151F7BCB9A0060E92C /* CYLrcLabel.m */,
+				413BB41A1F7BD48E0060E92C /* CYLrcCell.h */,
+				413BB41B1F7BD48E0060E92C /* CYLrcCell.m */,
+				413BB41C1F7BD48E0060E92C /* CYLrcCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		41917B641F7B94B900BAA1CC = {
 			isa = PBXGroup;
 			children = (
@@ -371,8 +417,6 @@
 				41917BA21F7B94EF00BAA1CC /* Classes */,
 				41917B701F7B94BA00BAA1CC /* AppDelegate.h */,
 				41917B711F7B94BA00BAA1CC /* AppDelegate.m */,
-				41917B731F7B94BA00BAA1CC /* ViewController.h */,
-				41917B741F7B94BA00BAA1CC /* ViewController.m */,
 				41917B761F7B94BA00BAA1CC /* Main.storyboard */,
 				41917B7B1F7B94BB00BAA1CC /* LaunchScreen.storyboard */,
 				41917B7E1F7B94BB00BAA1CC /* Info.plist */,
@@ -402,6 +446,7 @@
 		41917BA21F7B94EF00BAA1CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				413BB40C1F7BC8860060E92C /* MusicPlayerDetail */,
 				413BB3EF1F7B9EA70060E92C /* Model */,
 				413BB3ED1F7B9CFB0060E92C /* Common */,
 				413BB3DE1F7B9BF00060E92C /* Utils */,
@@ -617,6 +662,7 @@
 				413BB38D1F7B97D60060E92C /* nanquan_icon@2x.jpg in Resources */,
 				413BB38E1F7B97D60060E92C /* wf@2x.jpg in Resources */,
 				413BB38F1F7B97D60060E92C /* wf_icon@2x.jpg in Resources */,
+				413BB4121F7BC8C40060E92C /* CYMusicDetailViewController.xib in Resources */,
 				413BB3901F7B97D60060E92C /* zxy@2x.jpg in Resources */,
 				413BB3911F7B97D60060E92C /* zxy_icon@2x.jpg in Resources */,
 				413BB3921F7B97D60060E92C /* 10405520.lrc in Resources */,
@@ -643,6 +689,7 @@
 				41917B7D1F7B94BB00BAA1CC /* LaunchScreen.storyboard in Resources */,
 				413BB37D1F7B96EE0060E92C /* Assets.xcassets in Resources */,
 				41917B781F7B94BA00BAA1CC /* Main.storyboard in Resources */,
+				413BB41E1F7BD48E0060E92C /* CYLrcCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,6 +715,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				413BB3C01F7B986E0060E92C /* MJDictionaryCache.h in Sources */,
+				413BB4191F7BD0A30060E92C /* CYLrcTableViewController.m in Sources */,
 				413BB3C11F7B986E0060E92C /* MJDictionaryCache.m in Sources */,
 				413BB3C21F7B986E0060E92C /* MJExtension.h in Sources */,
 				413BB3FC1F7BA1CF0060E92C /* CYMusicInfoModel.m in Sources */,
@@ -685,9 +733,11 @@
 				413BB3CA1F7B986E0060E92C /* MJPropertyKey.m in Sources */,
 				413BB3CB1F7B986E0060E92C /* MJPropertyType.h in Sources */,
 				413BB3FF1F7BA85C0060E92C /* CYImageUtils.m in Sources */,
+				413BB41D1F7BD48E0060E92C /* CYLrcCell.m in Sources */,
 				413BB4051F7BAEB30060E92C /* CYAudioUtils.m in Sources */,
 				413BB3CC1F7B986E0060E92C /* MJPropertyType.m in Sources */,
 				413BB3CD1F7B986E0060E92C /* NSObject+MJClass.h in Sources */,
+				413BB4111F7BC8C40060E92C /* CYMusicDetailViewController.m in Sources */,
 				413BB3CE1F7B986E0060E92C /* NSObject+MJClass.m in Sources */,
 				413BB3E91F7B9C9C0060E92C /* CYMusicDataUtils.m in Sources */,
 				413BB3CF1F7B986E0060E92C /* NSObject+MJCoding.h in Sources */,
@@ -701,7 +751,7 @@
 				413BB3D41F7B986E0060E92C /* NSObject+MJProperty.m in Sources */,
 				413BB3D51F7B986E0060E92C /* NSString+MJExtension.h in Sources */,
 				413BB3D61F7B986E0060E92C /* NSString+MJExtension.m in Sources */,
-				41917B751F7B94BA00BAA1CC /* ViewController.m in Sources */,
+				413BB4161F7BCB9A0060E92C /* CYLrcLabel.m in Sources */,
 				41917B801F7B94BB00BAA1CC /* main.m in Sources */,
 				41917B721F7B94BA00BAA1CC /* AppDelegate.m in Sources */,
 			);
