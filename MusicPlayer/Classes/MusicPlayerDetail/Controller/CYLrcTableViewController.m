@@ -17,14 +17,11 @@
 @end
 
 @implementation CYLrcTableViewController
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 控制器初始化方法
     [self setUpInit];
 }
-
 /**
  *  初始化方法
  */
@@ -35,7 +32,6 @@
     self.tableView.showsVerticalScrollIndicator = NO;
     [self.tableView registerNib:[UINib nibWithNibName:identifiCYLrcCell bundle:nil] forCellReuseIdentifier:identifiCYLrcCell];
 }
-
 /**
  *  当控制器视图布局结束后调用(系统方法)
  */
@@ -46,7 +42,6 @@
     // 设置tableview内边距, 可以让第一行和最后一行歌词显示到中间位置
     self.tableView.contentInset = UIEdgeInsetsMake(self.tableView.cy_height * 0.5, 0, self.tableView.cy_height * 0.5, 0);
 }
-
 /**
  *  重写歌词进度的set方法, 在此方法中, 设置歌词进度
  */
@@ -74,7 +69,6 @@
     _lrcModels = lrcModels;
     [self.tableView reloadData];
 }
-
 /**
  *  重写需要滚动行的set方法, 在此方法里面滚动到对应的行
  *
@@ -97,13 +91,11 @@
     // 滚动到对应行
     [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
 }
-
 #pragma mark - Table view data source
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.lrcModels.count;
 }
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // 快速创建歌词cell
@@ -126,6 +118,4 @@
     
     return cell;
 }
-
-
 @end

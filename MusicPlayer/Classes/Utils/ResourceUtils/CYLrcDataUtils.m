@@ -88,6 +88,10 @@
     NSInteger count = lrcModels.count;
     for (NSInteger i = 0; i < count; i ++) {
         CYLrcModel *lrcModel = lrcModels[i];
+        if (lrcModel.endTime == 0) {
+            //最后一个
+            return i;
+        }
         if (currentTime >= lrcModel.beginTime && currentTime < lrcModel.endTime) {
             return i;
         }
