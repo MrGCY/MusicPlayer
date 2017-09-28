@@ -14,7 +14,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CYMusicDetailViewController">
             <connections>
                 <outlet property="backImageView" destination="gFm-2K-jwb" id="Ahm-yF-Zzm"/>
-                <outlet property="costTimeLabel" destination="7gP-UJ-jrT" id="y55-PX-eLF"/>
+                <outlet property="costTimeLabel" destination="3Bk-TU-XN6" id="8si-2K-NYe"/>
                 <outlet property="iconImageView" destination="6ka-AP-TQO" id="Wcb-aA-Dwc"/>
                 <outlet property="lrcBackView" destination="kNc-g7-9Ix" id="4J2-Cf-UrI"/>
                 <outlet property="lrcLabel" destination="W4A-EG-p7V" id="oTt-JL-6dO"/>
@@ -192,7 +192,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-g7-9Ix">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNc-g7-9Ix">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="419"/>
                                     </scrollView>
                                 </subviews>
@@ -242,6 +242,7 @@
             <connections>
                 <outletCollection property="gestureRecognizers" destination="z4t-nL-uZl" appends="YES" id="uYW-mn-chq"/>
             </connections>
+            <point key="canvasLocation" x="-267" y="59"/>
         </view>
         <tapGestureRecognizer id="z4t-nL-uZl">
             <connections>

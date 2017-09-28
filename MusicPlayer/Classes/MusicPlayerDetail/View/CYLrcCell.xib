@@ -20,19 +20,20 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4E-08-nZl" customClass="CYLrcLabel">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                        <rect key="frame" x="139" y="11.5" width="42" height="20.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="f4E-08-nZl" secondAttribute="bottom" id="N8W-d4-t0S"/>
-                    <constraint firstItem="f4E-08-nZl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="P6y-l4-ZHe"/>
-                    <constraint firstAttribute="trailing" secondItem="f4E-08-nZl" secondAttribute="trailing" id="SpV-nA-SKp"/>
-                    <constraint firstItem="f4E-08-nZl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VA5-xx-FOi"/>
+                    <constraint firstItem="f4E-08-nZl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="RiE-Cp-c7y"/>
+                    <constraint firstItem="f4E-08-nZl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Zq2-NC-gEx"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
                 <outlet property="lrcLabel" destination="f4E-08-nZl" id="0MZ-qd-lIm"/>

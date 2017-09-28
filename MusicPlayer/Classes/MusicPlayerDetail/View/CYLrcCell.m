@@ -9,11 +9,6 @@
 #import "CYLrcCell.h"
 @implementation CYLrcCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
-}
-
 /**
  *  重写歌词内容set方法, 展示歌词
  *
