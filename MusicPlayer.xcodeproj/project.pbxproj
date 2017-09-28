@@ -89,6 +89,7 @@
 		413BB4191F7BD0A30060E92C /* CYLrcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB4181F7BD0A30060E92C /* CYLrcTableViewController.m */; };
 		413BB41D1F7BD48E0060E92C /* CYLrcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB41B1F7BD48E0060E92C /* CYLrcCell.m */; };
 		413BB41E1F7BD48E0060E92C /* CYLrcCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BB41C1F7BD48E0060E92C /* CYLrcCell.xib */; };
+		413BB42F1F7CA7B30060E92C /* UITableView+GradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 413BB42E1F7CA7B30060E92C /* UITableView+GradientLayer.m */; };
 		41917B721F7B94BA00BAA1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41917B711F7B94BA00BAA1CC /* AppDelegate.m */; };
 		41917B781F7B94BA00BAA1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41917B761F7B94BA00BAA1CC /* Main.storyboard */; };
 		41917B7D1F7B94BB00BAA1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41917B7B1F7B94BB00BAA1CC /* LaunchScreen.storyboard */; };
@@ -172,6 +173,8 @@
 		413BB41A1F7BD48E0060E92C /* CYLrcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYLrcCell.h; sourceTree = "<group>"; };
 		413BB41B1F7BD48E0060E92C /* CYLrcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYLrcCell.m; sourceTree = "<group>"; };
 		413BB41C1F7BD48E0060E92C /* CYLrcCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CYLrcCell.xib; sourceTree = "<group>"; };
+		413BB42D1F7CA7B30060E92C /* UITableView+GradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+GradientLayer.h"; sourceTree = "<group>"; };
+		413BB42E1F7CA7B30060E92C /* UITableView+GradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+GradientLayer.m"; sourceTree = "<group>"; };
 		41917B6D1F7B94B900BAA1CC /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41917B701F7B94BA00BAA1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41917B711F7B94BA00BAA1CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -298,6 +301,8 @@
 				413BB3D91F7B990C0060E92C /* UIView+Extension.m */,
 				413BB3DB1F7B9B030060E92C /* CALayer+PauseAimate.h */,
 				413BB3DC1F7B9B030060E92C /* CALayer+PauseAimate.m */,
+				413BB42D1F7CA7B30060E92C /* UITableView+GradientLayer.h */,
+				413BB42E1F7CA7B30060E92C /* UITableView+GradientLayer.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -714,6 +719,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413BB42F1F7CA7B30060E92C /* UITableView+GradientLayer.m in Sources */,
 				413BB3C01F7B986E0060E92C /* MJDictionaryCache.h in Sources */,
 				413BB4191F7BD0A30060E92C /* CYLrcTableViewController.m in Sources */,
 				413BB3C11F7B986E0060E92C /* MJDictionaryCache.m in Sources */,
